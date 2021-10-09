@@ -1,0 +1,15 @@
+.App {
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #1B1F4E, #23374E, #718387, #376C74);
+    height: 100vh;
+    position: relative;
+}
+
+.App-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.42); */
+}

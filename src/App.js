@@ -1,8 +1,12 @@
 import './App.css';
-import Count from './Components/Count';
+import Header from './Components/Header.js'
+
 function App() {
   return (
     <div className="App">
+      <div className="App-wrap">
+        <Header />
+      </div>
     </div>
   );
 }
