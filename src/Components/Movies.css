@@ -1,0 +1,9 @@
+/* .movies {
+  max-width: 1696px;
+} */
+
+.movies_row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0;
+}
