@@ -2,18 +2,7 @@ import React from 'react'
 import logo from '../Images/logo.svg';
 import logoTicket from '../Images/tickets.svg';
 import './Header.css'
-import Home from './Home'
-import Movies from './Movies'
-import Showtime from './Showtime'
-import Theaters from './Theaters'
-import News from './News'
-import Contact from './Contact'
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -35,7 +24,7 @@ function Header() {
                             <button className="nav-wrap-top-register">Đăng ký</button>
                         </div>
                         
-                        <Router>
+                        
                             <ul className="nav-wrap-bottom">
                                 <li>
                                     <Link className="nav-wrap-bottom-item" to="/">TRANG CHỦ</Link>
@@ -56,16 +45,7 @@ function Header() {
                                     <Link className="nav-wrap-bottom-item" to="/contact">LIÊN HỆ</Link>
                                 </li>
                             </ul>
-
-                            <Switch>
-                                
-                                <Route path="/movies"> <Movies /> </Route>
-                                <Route path="/showtime"> <Showtime /> </Route>
-                                <Route path="/theaters"> <Theaters /> </Route>
-                                <Route path="/news"> <News /> </Route>
-                                <Route path="/contact"> <Contact /> </Route>
-                            </Switch>
-                        </Router>
+                        
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@
   font-weight: 700;
   color: #4c3f76;
   position: absolute;
-  /* z-index: 99; */
+  z-index: 99;
 }
 
 .homenav_pos {
