@@ -1,0 +1,15 @@
+.recommend_title {
+  margin: 32px 0;
+}
+
+.recommend_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.recommend_list > i {
+  font-size: 30px;
+  color: #f5859d;
+}

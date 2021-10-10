@@ -1,0 +1,21 @@
+.recommendPoster_img {
+  object-fit: contain;
+  width: 168px;
+}
+
+.recommendPoster_titleRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommendPoster_titleRating .recommendPoster_date {
+  font-size: 18px;
+  color: #f5859d;
+}
+
+.recommendPoster_titleRating .recommendPoster_rating, 
+.recommendPoster_typeDate .recommendPoster_type,
+.recommendPoster_typeDate .recommendPoster_date {
+  font-size: 12px;
+  color: #fff;
+}

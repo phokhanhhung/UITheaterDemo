@@ -1,0 +1,25 @@
+.pagenumber_list {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 18px;
+} 
+
+.pagenumber_list > i {
+  color: #f5859d;
+}
+
+.pagenumber_pos {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f5859d;
+  left: 45%;
+  top: -1;
+  z-index: -99;
+}
