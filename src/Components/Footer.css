@@ -1,0 +1,165 @@
+.footer{
+    position: relative;
+    height: 240px;
+    top: 1510px;
+}
+.footer-nav{
+    position: relative;
+    height: 200px;
+    background-color: #392C3F;
+}
+.footer-nav-logo{
+    position: absolute;
+    top: 25px;
+    left: 6.67%;
+    height: 54px;
+    width: 64px;
+    background-size: cover;
+}
+.footer-nav-info{
+    position: absolute;
+    top: 85px;
+    left: 6.67%;
+    width: 290px;
+    height: 80px;
+}
+.footer-nav-info > *{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 0;
+}
+.footer-nav-list > *{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.footer-nav-list ul{
+    list-style-type: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.footer-nav-list li{
+    margin-top: 10px;
+}
+.footer-nav-list a{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+.footer-nav-about{
+    position: absolute;
+    left: 33%;
+    top: 40px;
+    width: 83px;
+    height: 128px;
+}
+.footer-nav-term_and_condition{
+    position: absolute;
+    left: 45%;
+    top: 39px;
+    width: 173px;
+    height: 128px;
+}
+.footer-nav-recruitment{
+    position: absolute;
+    left: 62.7%;
+    top: 39px;
+    width: 162px;
+    height: 78px;
+}
+.footer-nav-contact{
+    position: absolute;
+    left: 81.2%;
+    top: 39px;
+    width: 173px;
+    height: 128px;
+    align-items: center;
+}
+.footer-nav-contact h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 0;
+    text-align: center;
+}
+.social-list{
+    list-style-type: none;
+    font-weight: normal;
+    margin: 0px 25px;
+    padding: 0;
+    display: flex;
+}
+.social-list *{
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+}
+.social-list div{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social-list li{
+    margin: 0px 5px;
+    vertical-align: middle;
+}
+.hotline{
+    position: absolute;
+    margin: 0px;
+    margin-top: 35px;
+    background-color: #B6E8EF;
+    border-radius: 30px;
+    width: 160px;
+    height: 45px;
+    display: block;
+}
+.phone-icon{
+    position: absolute;
+    margin: 0px;
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+}
+.hotline-text *{
+    font-family: Roboto;
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 3px;
+}
+.hotline-text{
+    position: absolute;
+    left: 52px;
+    top: 3px;
+}
+.copyright{
+    position: relative;
+    height: 40px;
+    background: #141414;
+}
+.copyright > p{
+    position: relative;
+    left: 38.33%;
+    right: 38.27%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #897D7D;
+    display: inline-block;
+}

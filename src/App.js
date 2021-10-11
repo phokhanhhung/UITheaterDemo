@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer';
 import Header from './Components/Header.js'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home';
@@ -17,6 +18,7 @@ function App() {
             <Route path="/news"> <News /> </Route>
             <Route path="/contact"> <Contact /> </Route>*/}
           </Switch>
+          <Footer />
         </div>
       </div>
     </Router>
