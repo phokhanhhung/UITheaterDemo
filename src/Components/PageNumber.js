@@ -12,7 +12,6 @@ function PageNumber() {
         <li>5</li>
         <li>6</li>
         <i className="fas fa-angle-right"></i>      
-        <div className="pagenumber_pos"></div> 
       </ul>
 
     </div>

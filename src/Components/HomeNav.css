@@ -22,13 +22,17 @@
   z-index: 99;
 }
 
-.homenav_pos {
+.homenav_item li {
+  width: 33.33333%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.homenav_item li:nth-child(1) {
   width: 354px;
   height: 50px;
-  position: absolute;
-  top: 0;
-  left: 0;
   background-color: #a3bdcc;
   z-index: 98;
   border-radius: 50px;
 }
+

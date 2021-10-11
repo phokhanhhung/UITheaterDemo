@@ -5,8 +5,8 @@ function RecommendPoster({poster, title, rating, type, date}) {
   return (
     <div className="recommendPoster">
       <img className="recommendPoster_img" src={poster} alt="poster" />
-      <div className="recommendPoster_dateRating">
-        <h4 className="recommendPoster_date">
+      <div className="recommendPoster_titleRating">
+        <h4 className="recommendPoster_title">
           {title}
         </h4>
         <div className="recommendPoster_rating">

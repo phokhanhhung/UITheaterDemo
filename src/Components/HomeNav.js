@@ -9,7 +9,6 @@ function HomeNav() {
         <li>PHIM SẮP CHIẾU</li>
         <li>SUẤT CHIẾU ĐẶC BIỆT</li>
       </ul>
-      <div className="homenav_pos"></div>
     </div>
   )
 }
